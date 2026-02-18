@@ -74,7 +74,7 @@ Once the application is running, access the interactive documentation at:
 
 ---
 
-## ⚡ Usage Example
+## Usage Example
 
 Send a `POST` request to `/structure` with raw text.
 
