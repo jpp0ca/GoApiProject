@@ -22,7 +22,7 @@ type StructureResponse struct {
 
 // Validate checks that the response contains at least one extracted field.
 func (r *StructureResponse) Validate() error {
-	if r.Data == nil || len(r.Data) == 0 {
+	if len(r.Data) == 0 {
 		return fmt.Errorf("LLM returned empty or invalid JSON structure")
 	}
 	return nil
