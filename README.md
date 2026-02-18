@@ -1,6 +1,6 @@
-# GoApiProject
+# TextToJSON
 
-**GoApiProject** is a high-performance Go API designed to transform unstructured text into structured JSON data using the power of **Google Gemini AI**. Built with **Hexagonal Architecture (Ports and Adapters)**, this project demonstrates clean code practices, separation of concerns, and robust error handling.
+**TextToJSON** is a high-performance Go API designed to transform unstructured text into structured JSON data using the power of **Google Gemini AI**. Built with **Hexagonal Architecture (Ports and Adapters)**, this project demonstrates clean code practices, separation of concerns, and robust error handling.
 
 > **Goal**: Turn chaotic text (tweets, emails, recipes, logs) into clean, predictable JSON with zero regex.
 
@@ -37,8 +37,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/jpp0ca/GoApiProject.git
-   cd GoApiProject
+   git clone https://github.com/jpp0ca/TextToJSON.git
+   cd TextToJSON
    ```
 
 2. **Configure Environment**
